@@ -1,0 +1,12 @@
+{
+	"name": "BioGPT dev container",
+	"build": {
+		"dockerfile": "Dockerfile"
+	},
+	"runArgs": [
+		"--gpus",
+		"all",
+		"--env-file",
+		".devcontainer/.env"
+	]
+}
